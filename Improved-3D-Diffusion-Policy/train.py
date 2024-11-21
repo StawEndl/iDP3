@@ -17,7 +17,7 @@ sys.stderr = open(sys.stderr.fileno(), mode='w', buffering=1)
 
 import wandb
  
-# wandb.login(key="c9237d0926721a0b1b61d165d0ead0a48723c034")
+# wandb.login(key="")
 
 os.environ['WANDB_SILENT'] = "True"
 # os.environ['WANDB_SILENT'] = "True"
